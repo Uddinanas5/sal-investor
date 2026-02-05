@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* SAL Investor Color Palette */
+  --cream: #FAF7F2;
+  --cream-dark: #F0EBE3;
+  --warm-white: #FFFCF8;
+  --charcoal: #2C2522;
+  --charcoal-light: #4A4340;
+  --warm-gray: #8A8280;
+  --gold: #C8973E;
+  --gold-light: #E3C078;
+  --gold-subtle: #F5ECD7;
+  --deep-brown: #3D2B1F;
+  --sage: #7A8B6F;
+  --terracotta: #C4724E;
+  --whatsapp-green: #25D366;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Colors */
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-warm-white: var(--warm-white);
+  --color-charcoal: var(--charcoal);
+  --color-charcoal-light: var(--charcoal-light);
+  --color-warm-gray: var(--warm-gray);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-subtle: var(--gold-subtle);
+  --color-deep-brown: var(--deep-brown);
+  --color-sage: var(--sage);
+  --color-terracotta: var(--terracotta);
+  --color-whatsapp: var(--whatsapp-green);
+
+  /* Fonts */
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream);
+  color: var(--charcoal-light);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+/* Selection color */
+::selection {
+  background: var(--gold-subtle);
+  color: var(--charcoal);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--warm-gray);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--charcoal-light);
+}
+
+/* Smooth font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
