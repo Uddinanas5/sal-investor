@@ -305,7 +305,7 @@ function ProactiveIntelligence() {
     },
     {
       icon: Calendar,
-      alert: "Tomorrow looks slow - only 60% booked. Want me to send a last-minute deals campaign?",
+      alert: "Tomorrow looks slow, only 60% booked. Want me to send a last-minute deals campaign?",
       color: "text-terracotta",
     },
     {
@@ -504,7 +504,7 @@ function VoiceCalls() {
     "SAL calls you to give important updates",
     "You can ask SAL to do tasks over the phone",
     "Have a real conversation with your AI assistant",
-    "Ask questions, give instructions, get things done — all by voice",
+    "Ask questions, give instructions, get things done. All by voice.",
     "SAL answers calls for the shop",
     "Makes calls on your behalf",
     "Books appointments via phone",
@@ -569,8 +569,8 @@ function WhyWhatsApp() {
   const reasons = [
     { stat: "98%", label: "WhatsApp penetration in UAE/MENA" },
     { stat: "0", label: "New apps to download or learn" },
-    { stat: "24h", label: "Setup time — we do everything" },
-    { stat: "Any", label: "Phone works — Android or iPhone" },
+    { stat: "24h", label: "Setup time. We do everything." },
+    { stat: "Any", label: "Phone works. Android or iPhone." },
   ];
 
   return (
@@ -592,7 +592,7 @@ function WhyWhatsApp() {
           </motion.div>
           <motion.p variants={fadeUp} className="text-charcoal-light mt-4 max-w-2xl mx-auto">
             No dashboards to learn. No apps to download. No training needed.
-            SAL works where your team already is — WhatsApp.
+            SAL works where your team already is: WhatsApp.
           </motion.p>
         </motion.div>
 
@@ -796,7 +796,7 @@ function FounderStory() {
             <motion.div variants={fadeUp} className="space-y-4">
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-gold flex-shrink-0 mt-1" />
-                <p className="text-charcoal-light">Founded Back Alive Barbershop — 2 locations in Dubai, 4.9 stars, 3,000+ reviews</p>
+                <p className="text-charcoal-light">Founded Back Alive Barbershop with 2 locations in Dubai, 4.9 stars, 3,000+ reviews</p>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-gold flex-shrink-0 mt-1" />
@@ -804,11 +804,11 @@ function FounderStory() {
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-gold flex-shrink-0 mt-1" />
-                <p className="text-charcoal-light">Self-taught developer — built SAL from scratch</p>
+                <p className="text-charcoal-light">Self-taught developer who built SAL from scratch</p>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-gold flex-shrink-0 mt-1" />
-                <p className="text-charcoal-light">SAL runs live in Back Alive — this isn&apos;t a concept, it&apos;s working</p>
+                <p className="text-charcoal-light">SAL runs live in Back Alive. This isn&apos;t a concept, it&apos;s working.</p>
               </div>
             </motion.div>
           </motion.div>
@@ -856,7 +856,7 @@ function Team() {
             className="bg-warm-white rounded-2xl p-8 shadow-sm"
           >
             <div className="flex flex-col items-center text-center mb-6">
-              <TeamPhoto src="/team-anas.jpg" initial="A" alt="Anas - Founder & CEO" />
+              <TeamPhoto src="/team-anas.jpg" initial="A" alt="Anas, Founder and CEO" />
               <h3 className="font-[family-name:var(--font-playfair)] text-2xl text-charcoal mt-4">Anas</h3>
               <p className="text-gold font-medium">Founder & CEO</p>
             </div>
@@ -871,7 +871,7 @@ function Team() {
               </li>
               <li className="flex items-start gap-2">
                 <Check className="w-4 h-4 text-gold mt-0.5 flex-shrink-0" />
-                Self-taught developer — built SAL from scratch
+                Self-taught developer who built SAL from scratch
               </li>
             </ul>
           </motion.div>
@@ -881,7 +881,7 @@ function Team() {
             className="bg-warm-white rounded-2xl p-8 shadow-sm"
           >
             <div className="flex flex-col items-center text-center mb-6">
-              <TeamPhoto src="/team-fahim.jpg" initial="F" alt="Fahim - CTO" />
+              <TeamPhoto src="/team-fahim.jpg" initial="F" alt="Fahim, CTO" />
               <h3 className="font-[family-name:var(--font-playfair)] text-2xl text-charcoal mt-4">Fahim</h3>
               <p className="text-gold font-medium">Technical Co-Founder & CTO</p>
             </div>
@@ -934,7 +934,7 @@ function Traction() {
             <SectionLabel>Traction</SectionLabel>
           </motion.div>
           <motion.div variants={fadeUp}>
-            <SectionHeading>This Isn&apos;t a Concept — It&apos;s Working</SectionHeading>
+            <SectionHeading>This Isn&apos;t a Concept. It&apos;s Working.</SectionHeading>
           </motion.div>
         </motion.div>
 
@@ -965,7 +965,7 @@ function Traction() {
           <div className="inline-flex items-center gap-3 bg-gold-subtle px-6 py-3 rounded-full">
             <Award className="w-6 h-6 text-gold" />
             <span className="font-medium text-charcoal">
-              Fact Magazine — Favourite Barbershop of the Year 2025
+              Fact Magazine: Favourite Barbershop of the Year 2025
             </span>
           </div>
         </motion.div>
@@ -1002,33 +1002,12 @@ function TheAsk() {
             <SectionLabel>The Ask</SectionLabel>
           </motion.div>
           <motion.div variants={fadeUp}>
-            <SectionHeading>Pre-Seed Round</SectionHeading>
+            <SectionHeading>We&apos;re Raising Our Pre-Seed</SectionHeading>
           </motion.div>
           <motion.div variants={fadeUp}>
-            <p className="font-[family-name:var(--font-playfair)] text-6xl md:text-7xl text-gold mt-6">
-              500,000 AED
+            <p className="text-charcoal-light text-lg mt-4 max-w-xl mx-auto">
+              We&apos;re looking for investors who understand the beauty industry and want to back a founder who&apos;s lived the problem.
             </p>
-            <p className="text-warm-gray mt-2">~$136,000 USD</p>
-          </motion.div>
-        </motion.div>
-
-        <motion.div
-          variants={staggerContainer}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-          className="grid sm:grid-cols-3 gap-4 mb-12 max-w-2xl mx-auto"
-        >
-          <motion.div variants={fadeUp} className="bg-warm-white rounded-xl p-4 text-center">
-            <p className="text-warm-gray text-sm">Instrument</p>
-            <p className="font-medium text-charcoal">SAFE / Conv. Note</p>
-          </motion.div>
-          <motion.div variants={fadeUp} className="bg-warm-white rounded-xl p-4 text-center">
-            <p className="text-warm-gray text-sm">Valuation Cap</p>
-            <p className="font-medium text-charcoal">3-4M AED</p>
-          </motion.div>
-          <motion.div variants={fadeUp} className="bg-warm-white rounded-xl p-4 text-center">
-            <p className="text-warm-gray text-sm">Discount</p>
-            <p className="font-medium text-charcoal">20%</p>
           </motion.div>
         </motion.div>
 
@@ -1036,28 +1015,17 @@ function TheAsk() {
           variants={fadeUp}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          className="bg-warm-white rounded-2xl p-8 shadow-sm max-w-2xl mx-auto"
+          className="text-center"
         >
-          <h3 className="font-[family-name:var(--font-playfair)] text-xl text-charcoal mb-6 text-center">
-            Use of Funds
-          </h3>
-          <div className="space-y-4">
-            {useOfFunds.map((item) => (
-              <div key={item.category}>
-                <div className="flex justify-between items-center mb-2">
-                  <span className="font-medium text-charcoal">{item.category}</span>
-                  <span className="text-charcoal-light text-sm">{item.percent}%</span>
-                </div>
-                <div className="h-2 bg-cream-dark rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-gold rounded-full"
-                    style={{ width: `${item.percent}%` }}
-                  />
-                </div>
-                <p className="text-warm-gray text-xs mt-1">{item.purpose}</p>
-              </div>
-            ))}
-          </div>
+          <a
+            href="https://wa.me/971564333073"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-gold text-white px-8 py-4 rounded-full font-medium hover:bg-gold-light transition-colors text-lg"
+          >
+            <MessageSquare className="w-5 h-5" />
+            Let&apos;s Talk
+          </a>
         </motion.div>
       </div>
     </section>
@@ -1086,7 +1054,7 @@ function WhyInvest() {
     {
       icon: TrendingUp,
       title: "Traction",
-      description: "Already running in a real business. Not a concept — a working product.",
+      description: "Already running in a real business. Not a concept, a working product.",
     },
     {
       icon: Globe,
@@ -1167,11 +1135,11 @@ function Contact() {
             className="flex flex-col sm:flex-row gap-4 justify-center mb-8"
           >
             <a
-              href="mailto:hello@sal.com"
+              href="mailto:anas-uddin@hotmail.com"
               className="inline-flex items-center justify-center gap-2 bg-cream text-deep-brown px-6 py-3 rounded-full font-medium hover:bg-cream/90 transition-colors"
             >
               <Mail className="w-5 h-5" />
-              hello@sal.com
+              anas-uddin@hotmail.com
             </a>
             <a
               href="https://wa.me/971564333073"
