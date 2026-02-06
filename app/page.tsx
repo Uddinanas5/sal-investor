@@ -673,7 +673,7 @@ function Demo() {
                 <div className="relative w-[270px] aspect-[9/16] sm:w-[300px] bg-black">
                   <video
                     src="/sal-demo.mp4"
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                     controls
                     playsInline
                     preload="metadata"
